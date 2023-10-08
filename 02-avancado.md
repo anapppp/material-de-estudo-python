@@ -17,6 +17,17 @@ print(user_ids)
 ## Compressão de listas
 
 ```
-users = [user for id in user_ids if (user := get_user(id)) is not None] 
+users = [user for id in user_ids if (user := get_user(id)) is not None]
 ```
+
+Isso é o mesmo que
+
+```
+users = []
+ for id in user_ids:
+     user = get_user(id)
+     if user is not None:
+         users.append(user)
+```
+
 

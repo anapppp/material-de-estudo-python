@@ -8,5 +8,6 @@ Nesse repositório estão as minhas anotações sobre o uso de Python aplicado �
 
 - [Revisão](./01-revisao-comandos-python.md)
 - [Avançado](./02-avancado.md)
+- [Python para Machine Learning](./03-python-para-machine-learning.md)
 
 ----------
