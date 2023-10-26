@@ -11,7 +11,7 @@ Aqui eu coloquei os conteúdos em python que eu já hava visto, mas precisei rel
 > O operador `//` retorna o inteiro da divisão 
 
 
-```
+```python
 10/2 = 5.0    #float
 10//2 = 5     #inteiro
 ```
@@ -22,13 +22,13 @@ Aqui eu coloquei os conteúdos em python que eu já hava visto, mas precisei rel
 
 > tem que colocar `f` na frente
 
-```
+```python
 texto = f"idade {idade} preco {preco}"
 ```
 
 ## Entrada pelo teclado
 
-```
+```python
 nome = input ("Informe seu nome:")
 print ("sfsfd", end"\n")
 ```
