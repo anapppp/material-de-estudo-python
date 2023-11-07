@@ -9,5 +9,6 @@ Nesse repositório estão as minhas anotações sobre o uso de Python aplicado �
 - [Revisão](./01-revisao-comandos-python.md)
 - [Avançado](./02-avancado.md)
 - [Python para Machine Learning](./03-python-para-machine-learning.md)
+- [Métodos e Funções de lista](./04-metodos-e-funcoes-de-listas.md)
 
 ----------
