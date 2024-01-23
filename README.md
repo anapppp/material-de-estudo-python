@@ -1,16 +1,26 @@
-# ✍️ Material de estudos em Python com aplicação em Data Science
+# ✍️ Material de estudos em Python e Django
 
 <img width="300" src="https://github.com/anapppp/material-de-estudo-python-data-science/assets/70073296/7c2b719d-2d11-44d3-9fd3-df839b68299d">
 
-Nesse repositório estão as minhas anotações sobre o uso de Python aplicado à ciência de dados. Essa é uma compilação do que eu achei importante anotar nos bootcamps que participo. Alguns conteúdos podem estar incompletos, pois, eu anoto apenas o que preciso para me lembrar. Assim, esse conteúdo está sujeito à constantes atualizações.
+Nesse repositório estão as minhas anotações sobre o uso de Python e Django, com aplicação em ciência de dados e desenvolvimento backend. Essa é uma compilação do que eu achei importante anotar de vários boocamps, principalmente o do WoMakersCode.Alguns conteúdos podem estar incompletos, pois, eu anoto apenas o que preciso para me lembrar. Assim, esse conteúdo está sujeito à erros, e constantes atualizações.
 
 # Sumário
-
-- [Revisão](./01-revisao-comandos-python.md)
-- [Avançado](./02-avancado.md)
-- [Python para Machine Learning](./03-python-para-machine-learning.md)
-- [Métodos e Funções de lista](./04-metodos-e-funcoes-de-listas.md)
-- [Dicionários](./05-dicionarios.md)
-- [Classes e Objetos](06-classes-e-objetos.md)
+- Python Básico
+  - [Revisão](./python-basico/01-revisao-comandos-python.md)
+  - [Avançado](./python-basico/02-avancado.md)
+  - [Python para Machine Learning](./python-basico/03-python-para-machine-learning.md)
+  - [Métodos e Funções de lista](./python-basico/04-metodos-e-funcoes-de-listas.md)
+  - [Dicionários](./python-basico/05-dicionarios.md)
+  - [Classes e Objetos](./python-basico/06-classes-e-objetos.md)
+- Orientação a objeto
+  - [Namespaces, Pacotes e Escopos](./orientacao-a-objeto/namespaces-pacotes-e-escopos.md)
+  - [Classes e Objetos](./orientacao-a-objeto/classes-e-objetos.md)
+  - [Entendendo o contexto de Orientação a Objetos](./orientacao-a-objeto/.md)
+  - [Construtores e Destrutores](./orientacao-a-objeto/.md)
+  - [Atributos de visibilidade e encapsulamento](./orientacao-a-objeto/atributos-de-visibilidade-e-encapsulamento.md)
+  - [Herança](./orientacao-a-objeto/heranca.md)
+  - [Classes abstratas e a biblioteca ABC](./orientacao-a-objeto/classes-abstratas-e-a-biblioteca-ABC.md)
+  - [Pseudo-Interfaces](./orientacao-a-objeto/pseudo-interfaces.md)
+  - [Lidando com erros e exceções](./orientacao-a-objeto/lidando-com-erros-e-excecoes.md)
 
 ----------
