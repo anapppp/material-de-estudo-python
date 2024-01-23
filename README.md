@@ -13,14 +13,14 @@ Nesse repositório estão as minhas anotações sobre o uso de Python e Django, 
   - [Dicionários](./python-basico/05-dicionarios.md)
   - [Classes e Objetos](./python-basico/06-classes-e-objetos.md)
 - Orientação a objeto
-  - [Namespaces, Pacotes e Escopos](./orientacao-a-objeto/namespaces-pacotes-e-escopos.md)
-  - [Classes e Objetos](./orientacao-a-objeto/classes-e-objetos.md)
-  - [Entendendo o contexto de Orientação a Objetos](./orientacao-a-objeto/.md)
-  - [Construtores e Destrutores](./orientacao-a-objeto/.md)
-  - [Atributos de visibilidade e encapsulamento](./orientacao-a-objeto/atributos-de-visibilidade-e-encapsulamento.md)
-  - [Herança](./orientacao-a-objeto/heranca.md)
-  - [Classes abstratas e a biblioteca ABC](./orientacao-a-objeto/classes-abstratas-e-a-biblioteca-ABC.md)
-  - [Pseudo-Interfaces](./orientacao-a-objeto/pseudo-interfaces.md)
-  - [Lidando com erros e exceções](./orientacao-a-objeto/lidando-com-erros-e-excecoes.md)
+  - [Namespaces, Pacotes e Escopos](./orientacao-a-objeto/01-namespaces-pacotes-e-escopos.md)
+  - [Classes e Objetos](./orientacao-a-objeto/02-classes-e-objetos.md)
+  - [Entendendo o contexto de Orientação a Objetos](./orientacao-a-objeto/03-entendendo-o-contexto-de-orientacao-a-objetos.md)
+  - [Construtores e Destrutores](./orientacao-a-objeto/04-construtores-e-destrutores.md)
+  - [Atributos de visibilidade e encapsulamento](./orientacao-a-objeto/05-atributos-de-visibilidade-e-encapsulamento.md)
+  - [Herança](./orientacao-a-objeto/06-heranca.md)
+  - [Classes abstratas e a biblioteca ABC](./orientacao-a-objeto/07-classes-abstratas-e-a-biblioteca-ABC.md)
+  - [Pseudo-Interfaces](./orientacao-a-objeto/08-pseudo-interfaces.md)
+  - [Lidando com erros e exceções](./orientacao-a-objeto/09-lidando-com-erros-e-excecoes.md)
 
 ----------
