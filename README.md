@@ -19,7 +19,6 @@ Nesse repositório estão as minhas anotações sobre o uso de Python e Django, 
   - [Atributos de visibilidade e encapsulamento](./orientacao-a-objeto/05-atributos-de-visibilidade-e-encapsulamento.md)
   - [Herança](./orientacao-a-objeto/06-heranca.md)
   - [Classes abstratas e a biblioteca ABC](./orientacao-a-objeto/07-classes-abstratas-e-a-biblioteca-ABC.md)
-  - [Pseudo-Interfaces](./orientacao-a-objeto/08-pseudo-interfaces.md)
-  - [Lidando com erros e exceções](./orientacao-a-objeto/09-lidando-com-erros-e-excecoes.md)
+  - [Tipagem Pato](./orientacao-a-objeto/08-tipagem-pato.md)
 
 ----------
