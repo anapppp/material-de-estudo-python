@@ -2,7 +2,7 @@
 
 <img width="300" src="https://github.com/anapppp/material-de-estudo-python-data-science/assets/70073296/7c2b719d-2d11-44d3-9fd3-df839b68299d">
 
-Nesse repositório estão as minhas anotações sobre o uso de Python e Django, com aplicação em ciência de dados e desenvolvimento backend. Essa é uma compilação do que eu achei importante anotar de vários boocamps, principalmente o do WoMakersCode.Alguns conteúdos podem estar incompletos, pois, eu anoto apenas o que preciso para me lembrar. Assim, esse conteúdo está sujeito à erros, e constantes atualizações.
+Nesse repositório estão as minhas anotações sobre o uso de Python e Django, com aplicação em ciência de dados e desenvolvimento backend. Essa é uma compilação do que eu achei importante anotar de vários boocamps, principalmente o do WoMakersCode. Alguns conteúdos podem estar incompletos, pois, eu anoto apenas o que preciso para me lembrar. Assim, esse conteúdo está sujeito à erros, e constantes atualizações.
 
 # Sumário
 - Python Básico
@@ -20,5 +20,8 @@ Nesse repositório estão as minhas anotações sobre o uso de Python e Django, 
   - [Herança](./orientacao-a-objeto/06-heranca.md)
   - [Classes abstratas e a biblioteca ABC](./orientacao-a-objeto/07-classes-abstratas-e-a-biblioteca-ABC.md)
   - [Tipagem Pato](./orientacao-a-objeto/08-tipagem-pato.md)
+- Banco de Dados
+  - [Diferenças entre PostgreSQL e SQLite](./banco-de-dados/diferencas-postgresql-sqlite.md)
+  - [Executando SQLite no Python](./banco-de-dados/sqlite-no-python.md)
 
 ----------
