@@ -27,5 +27,6 @@ Nesse repositório estão as minhas anotações sobre o uso de Python e Django, 
   - [Protocolo HTTP](./api/protocolo-http.md)
   - [APIs](./api/api.md)
   - [Flask](./api/flask.md)
+  - [FastAPI](./api/fastAPI.md)
 
 ----------
