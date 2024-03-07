@@ -68,3 +68,54 @@ uvicorn app:app --reload
 >> formato docs   http://127.0.0.1:8000/docs
 
 >> formato redoc  http://127.0.0.1:8000/redoc 
+
+
+## Métodos HTTP
+
+```python
+
+from fastapi import FastAPI, HTTPException
+
+app = FastAPI()
+
+# GET
+@app.get("/")
+async def root():
+    return {"message": "Olá WoMakers!"}
+
+@app.get("/api/users"):
+async def get_users():
+    return db;   #db foi criado anteriormente
+
+@app.get("/api/users/{id}"):
+async def get_user(id: UUID):
+    for user in db:
+        if user.id == id:
+            return user
+        return {"message": "Usuario nao encontrado"}
+
+# POST
+@app.post("/api/users")
+async def add_user(user:User):
+    # Escreva um comentario em MarkDown para melhorar a Documentacao
+    """
+    Adiciona um usuario a base de dados:
+    - **id**: UUID
+    - **first_name**: string
+    - **last_name**: string
+    """
+    db.append(user)
+    return {"id": user.id}
+
+# DELETE
+@app.delete("/api/users/{id}")
+async def remove_user(id:UUID):
+    for user in db:
+        if user.id == id:
+            db.remove(user)
+            return   # Deixando assim sem nada, retorna soh o status 200
+    raise HTTP(    #aqui tratamos as excecoes
+        status_code=404,
+        detail=f"Usuário com id {id} nao encontrado"
+    )
+```

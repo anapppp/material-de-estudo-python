@@ -28,5 +28,14 @@ Nesse repositório estão as minhas anotações sobre o uso de Python e Django, 
   - [APIs](./api/api.md)
   - [Flask](./api/flask.md)
   - [FastAPI](./api/fastAPI.md)
-
+- Django Web
+  - [Padrão MVT](./django/mvt.md)
+  - [Django](./django/django.md)
+    - [Inicializando](./django/django.md/#inicializando-um-novo-projeto-em-django)
+    - [Views](./django/django.md/#views)
+    - [Templates](./django/django.md/#usando-templates)
+    - [Aprimorando templates](./django/django.md/#aprimorando-templates)
+    - [Forms](./django/django.md/#django-forms)
+    - [](./django/django.md/)
+    
 ----------
