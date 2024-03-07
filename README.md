@@ -36,6 +36,7 @@ Nesse repositório estão as minhas anotações sobre o uso de Python e Django, 
     - [Templates](./django/django.md/#usando-templates)
     - [Aprimorando templates](./django/django.md/#aprimorando-templates)
     - [Forms](./django/django.md/#django-forms)
-    - [](./django/django.md/)
-    
+    - [Model Form](./django/django.md/#modelform)
+    - [Simplificando o código](./django/django.md/#simplificando-o-código)
+    - [Admin](./django/django.md/#admin)
 ----------
