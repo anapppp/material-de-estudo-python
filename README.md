@@ -37,6 +37,13 @@ Nesse repositório estão as minhas anotações sobre o uso de Python e Django, 
     - [Aprimorando templates](./django/django.md/#aprimorando-templates)
     - [Forms](./django/django.md/#django-forms)
     - [Model Form](./django/django.md/#modelform)
-    - [Simplificando o código](./django/django.md/#simplificando-o-código)
+      - [Simplificando o código](./django/django.md/#simplificando-o-código)
     - [Admin](./django/django.md/#admin)
+    - [Melhorando as URLs](./django/django.md/#melhorando-as-urls)
+    - [Validações](./django/django.md/#validações)
+- Django REST
+  - [REST Framework](./django/django-REST.md)
+  - [Serializer](./django/django-REST.md/#serializer)
+- Pytest
+  [Testes com Pytest](./django/pytest.md)
 ----------

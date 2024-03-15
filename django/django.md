@@ -368,3 +368,38 @@ class CadastroAdmin(admin.ModelAdmin):
     search_fields = ['nome', 'email']
     list_filter = ['data']
 ``` 
+
+## Melhorando as URLs
+
+Vamos criar outro aplicativo chamado *cursos*
+
+Nesse exeplo, nós criamos as URLs no arquivo 'cursos/urls.py'. O arquivo './urls.py' precisa importar esse arquivo.
+
+```python
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', inicio),
+    path('cadastro/', cadastro),
+    path('curso/', include('cursos.urls', namespace='cursos'))
+]
+```
+
+Dessa forma, todas as rotas de cursos serão acessadas a partir de cursos. Ex: localhost/curso/criar_curso
+
+## Validações
+
+É **padronizado** no Django: Validações são feitas em uma função dentro do forms cujo nome inicia com `clean_` e continua com o nome da variável, nesse caso, `data_do_curso` 
+
+
+```python
+class CursoForm(forms.ModelForm):
+    def clean_data_do_curso(self):
+        data_do_curso = self.cleaned_data['data_do_curso']
+        hoje = date.today()
+        if data_do_curso<hoje:
+            raise forms.ValidationError('Não é possível cadastrar um curso no passado')
+        return data_do_curso
+    class Meta:
+        model = Curso
+        fields = ['titulo', 'nivel', 'carga_horaria', 'data_do_curso', 'descricao']
+```
