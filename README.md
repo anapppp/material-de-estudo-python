@@ -46,4 +46,7 @@ Nesse repositório estão as minhas anotações sobre o uso de Python e Django, 
   - [Serializer](./django/django-REST.md/#serializer)
 - Pytest
   [Testes com Pytest](./django/pytest.md)
+
+- [GUIA DE SOBREVIVÊNCIA DJANGO](./Guia%20de%20sobrevivência%20-%20DJANGO.pdf)
+- [MANUAL DE SOBREVIVÊNCIA GITHUB](./Manual%20de%20sobrevivência%20-%20github.pdf)
 ----------
